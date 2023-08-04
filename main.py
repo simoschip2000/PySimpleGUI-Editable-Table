@@ -116,9 +116,9 @@ def generate_table():
                 cell = row, col = event[2]
                 print(row)
 
-            # Displays that coordinates of the cell that was clicked on
-            window['-CLICKED_CELL-'].update(cell)
-            edit_cell(window, '-TABLE-', row+1, col, justify='right')
+                # Displays that coordinates of the cell that was clicked on
+                window['-CLICKED_CELL-'].update(cell)
+                edit_cell(window, '-TABLE-', row+1, col, justify='right')
 
     window.close()
 
